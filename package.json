@@ -32,11 +32,11 @@
   "homepage": "https://github.com/webpack-contrib/s3-plugin-webpack",
   "dependencies": {
     "aws-sdk": "^2.4.1",
-    "cdnizer": "^1.1.5",
+    "cdnizer": "^2.0.0",
     "lodash": "^4.13.0",
     "progress": "^1.1.8",
     "recursive-readdir": "^2.0.0",
-    "s3": "^4.4.0"
+    "s3": "git+https://github.com/andrewrk/node-s3-client.git#master"
   },
   "devDependencies": {
     "babel-loader": "^6.2.4",
